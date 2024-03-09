@@ -1,0 +1,262 @@
+ *{
+     /* border:1px solid red; */
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+.my-header{
+    background-image: linear-gradient(to right ,rgb(3, 5, 97), rgb(8, 170, 235));
+}
+.container-fluid{
+    width:100%;
+}
+ 
+ .inner{
+    max-width:80%;
+    margin:0 auto;
+    padding:2rem
+} 
+
+.two-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.my-padding{
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+
+.my-padding section{
+    width:47%;
+}
+
+.my-padding h3{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 2.9rem;
+    font-weight: 600;
+}
+
+.my-padding p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: lightgray;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #00BC8A;
+    color: #fff
+} 
+
+/* Middle section start here */
+ .middle-section{
+    padding: 6rem 0;
+}
+
+.middle-section section{
+    width:47%;
+}
+
+.middle-section h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.middle-section p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.middle-section .my-botton{
+    border: 1px solid gray;
+    color: gray;
+    background: none;
+    width: 120px;
+}
+
+.middle-section li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: gray;
+    line-height: 2.1rem;
+}
+.middle-section li span{
+    color:green;
+    margin-right: 0.5rem;
+} 
+
+/* image section */
+.img-section{
+    /* padding:2rem;
+    margin-bottom:2rem; */
+}
+
+.img-section section{
+    margin-bottom:2rem;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+} 
+
+ .img-section img{
+    width: 80%;
+    margin-right: 2rem;
+} 
+.img-section h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.img-section p{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+.img-section .details{
+    border: 1px solid gray;
+    color: gray;
+    background: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+article{
+    margin-top: 4rem;
+}
+ 
+
+.big-botton{
+    border: 1px solid gray;
+    color: gray;
+    background: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.same{
+    width: 48%;
+    height: 2.7rem;
+    padding-left: 1rem;
+}
+
+.same1{
+    margin-right: 3%;
+}
+
+.message{
+    width: 100%;
+    height: 8.5rem;
+    margin: 2rem 0;
+}
+
+.send{
+    border: 1px solid gray;
+    color: gray;
+    background: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+}
+
+.footer-section section{
+    width:47%;
+}
+
+.footer-section h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.footer-section p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section li span{
+    color:#10cd80;
+    margin-right: 0.9rem;
+}
+
+.footer-section li{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    color: gray;
+}
+
+.copyright{
+    text-align: center;
+    padding:4rem 0;
+    color:gray;
+}
+
+.bot{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+ @media only screen and (max-width:600px){
+    .two-section section{
+        width:100%;
+    }
+
+    .two-section section{
+        width:100%;
+    }
+    .img-section img{
+         width: 100%; 
+    
+     }
+    .footer-section section{
+        width:100%;
+    }
+    .same1{
+        margin-right: 2%;
+    }
+    .img-section section{
+        flex-wrap: wrap;
+    }
+}  
+
